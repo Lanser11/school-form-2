@@ -1,0 +1,61 @@
+html {
+    background: url(http://cdn.magdeleine.co/wp-content/uploads/2014/05/3jPYgeVCTWCMqjtb7Dqi_IMG_8251-1400x933.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 3px 3px 10px #000;
+}
+
+#login-section {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#login-section div {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(3, 3, 3, 0.4);
+    color: #fff;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgba(107, 255, 3, 0.6);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(107, 255, 3, 0.8);
+}
+
+textarea {
+    height: 100px;
+}
+
+#feedback-section {
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}

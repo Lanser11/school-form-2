@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Feedback System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>School Feedback System</h1>
+    
+    <div id="login-section">
+        <div id="admin-login">
+            <h2>Admin Login</h2>
+            <input type="text" id="admin-username" placeholder="Admin Username">
+            <input type="password" id="admin-password" placeholder="Admin Password">
+            <button id="admin-login-button">Login</button>
+        </div>
+        <div id="teacher-login">
+            <h2>Teacher Login</h2>
+            <input type="text" id="teacher-name" placeholder="Teacher Name">
+            <input type="password" id="teacher-password" placeholder="Password">
+            <input type="text" id="school-name" placeholder="School Name">
+            <button id="teacher-login-button">Login</button>
+        </div>
+        <div id="parent-login">
+            <h2>Parent Login</h2>
+            <input type="text" id="parent-name" placeholder="Parent Name">
+            <input type="password" id="parent-password" placeholder="Password">
+            <input type="text" id="emis-number" placeholder="EMIS Number">
+            <button id="parent-login-button">Login</button>
+        </div>
+    </div>
+
+    <div id="feedback-section" style="display:none;">
+        <h2>Feedback Form</h2>
+        <input type="text" id="community-number" placeholder="Community/EMIS Number" style="display:none;">
+        <textarea id="feedback-box" placeholder="Enter your feedback"></textarea>
+        <button id="submit-feedback">Submit Feedback</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
